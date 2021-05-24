@@ -1,0 +1,45 @@
+.screen{
+    
+}
+.search{
+    margin-left: 10%;
+}
+.listclass{
+    margin-left: 10%;
+}
+.favo{
+    margin-right:20%;
+    white-space: nowrap;
+}
+.favo1{
+    white-space: nowrap;
+}
+.drop{
+    background-color:black;
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(0,0,0,.5); */
+    color:white;
+    font-weight: 700px;
+}
+.dropdown-item {
+   color:white;
+}
+.footer{
+  margin:0px;
+ margin-bottom: 10px;
+ justify-content: center;
+}
+.prev{
+    margin-right: 2%;
+}
+.next{
+    margin-left: 2%;
+}
+.submit{
+    margin-left: 3px;
+}
+#inputpage{
+    width:50px;
+}

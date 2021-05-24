@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import {useState} from 'react';
 import {useSelector , useDispatch } from 'react-redux';
 import {connect} from "react-redux";
-import Boxlogic from './Boxlogic';
+
 import './App.css';
 import { Table } from 'react-bootstrap';
 function Tables(props) {
@@ -235,7 +235,7 @@ if(props.searchd.slice(x,y).length === 0)
         
       </tbody>
     </Table>
-     <div class="row">
+     <div class="row footer ">
        
       {/* <button type="button" class="btn btn-info" id ={pagenum.a1}>{pagenum.a1}</button>
        <button type="button" class="btn btn-info"  id ={pagenum.a1}>{pagenum.a2}</button>
@@ -243,10 +243,10 @@ if(props.searchd.slice(x,y).length === 0)
        <button type="button" class="btn btn-info"  id ={pagenum.a1} >{pagenum.a4}</button>
         <button type="button" class="btn btn-info"  id ={pagenum.a1}>{pagenum.a5}</button>*/}
        
-     <button type="button" class="btn btn-success" onClick={()=>prevbuttonclicked()}>Prev</button>
+     <button type="button" class="btn btn-dark prev" onClick={()=>prevbuttonclicked()}>Prev</button>
      <input id ="inputpage" placeholder={curpage} type="text" pattern="[0-9]*"  onInput={handleChange} />
-     <button type="button" class="btn btn-info" onClick={()=>submitbuttonclicked()}>Submit</button>
-     <button type="button" class="btn btn-outline-danger" onClick={()=>nextbuttonclicked()}>Next</button>
+     <button type="button" class=" btn btn-outline-primary submit" onClick={()=>submitbuttonclicked()}>Submit</button>
+     <button type="button" class="btn btn-dark next" onClick={()=>nextbuttonclicked()}>Next</button>
      </div>
     </div>
     );

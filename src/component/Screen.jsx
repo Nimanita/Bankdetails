@@ -48,7 +48,7 @@ if(JSON.parse(localStorage.getItem("bankdata")) === null  )
   console.log("ishhd" ,JSON.parse(localStorage.getItem("favourites")) );
   return (
     <div className="screen">
-       Please wait!!!
+     <h1  class="load">  Loading...</h1>
     </div>
   );
 

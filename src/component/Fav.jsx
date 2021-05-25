@@ -10,7 +10,10 @@ function Fav() {
 if(l<=1)
 {
     return(
+      <div classname ="App">
+       
         <h1>No banks marked as favourite!!!</h1>
+        </div>
     );
 }
   return (

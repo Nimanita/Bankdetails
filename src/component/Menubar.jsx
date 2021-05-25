@@ -68,7 +68,7 @@ function Favourite(){
         </div>
       </li>
       <li class="nav-item active favo1 ">
-        <a class="nav-link " href="#" onClick={()=>Favourite()} >My Favourite </a>
+        <a class="nav-link "  onClick={()=>Favourite()} >My Favourite </a>
       </li>
       
     </ul>
